@@ -12,7 +12,7 @@ export const HERO = {
 export const ABOUT = {
   stats: [
     ["6", "th", " Semester (BSCS)"],
-    ["2.8", "", " CGPA"],
+    ["2", "", " Apps"],
     ["1", "", " Internship"],
     ["6", "+", " Projects"],
   ],
