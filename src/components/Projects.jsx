@@ -20,10 +20,6 @@ export default function Projects({ projects }) {
 
             return (
               <div className={`project-card reveal${revealClass}`} key={project.title}>
-                <div className={`project-image ${project.bg}`}>
-                  <div className="project-image-icon">{project.icon}</div>
-                </div>
-
                 <div className="project-body">
                   <div className="project-meta">
                     <span className="project-type">{project.type}</span>

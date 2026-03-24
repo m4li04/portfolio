@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function Navbar({ links, theme, toggleTheme }) {
+export default function Navbar({ links, theme, toggleTheme, photoSrc }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [active, setActive] = useState("hero");
@@ -33,8 +33,13 @@ export default function Navbar({ links, theme, toggleTheme }) {
     <>
       <nav className={`pf-nav${scrolled ? " scrolled" : ""}`}>
         <div className="nav-inner">
-          <a href="#hero" className="nav-logo">
-            Ali<span>.</span>
+          <a href="#hero" className="nav-brand" aria-label="Go to top">
+            <span className="nav-avatar nav-avatar-left">
+              <img src={photoSrc} alt="Muhammad Ali Hassan" />
+            </span>
+            <span className="nav-logo">
+              Ali<span>.</span>
+            </span>
           </a>
 
           <ul className="nav-links">

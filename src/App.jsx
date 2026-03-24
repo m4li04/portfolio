@@ -17,6 +17,7 @@ import {
   HERO,
   NAV_LINKS,
   PROJECTS,
+  PROFILE_PHOTO,
   SKILL_GROUPS,
   TECH_STACK,
 } from "./data/portfolioData";
@@ -62,8 +63,8 @@ export default function App() {
 
   return (
     <>
-      <Navbar links={NAV_LINKS} theme={theme} toggleTheme={toggleTheme} />
-      <Hero hero={HERO} />
+      <Navbar links={NAV_LINKS} theme={theme} toggleTheme={toggleTheme} photoSrc={PROFILE_PHOTO} />
+      <Hero hero={HERO} photoSrc={PROFILE_PHOTO} />
       <About about={ABOUT} techStack={TECH_STACK} />
       <Skills skillGroups={SKILL_GROUPS} />
       <Projects projects={PROJECTS} />

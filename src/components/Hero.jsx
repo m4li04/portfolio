@@ -1,4 +1,4 @@
-export default function Hero({ hero }) {
+export default function Hero({ hero, photoSrc }) {
   return (
     <section id="hero" className="hero-section">
       <div className="hero-blob hero-blob-1" />
@@ -45,13 +45,7 @@ export default function Hero({ hero }) {
             <div className="hero-image-ring">
               <div className="hero-ring-inner">
                 <div className="hero-avatar">
-                  <div className="avatar-placeholder">
-                    <svg viewBox="0 0 200 220" fill="none">
-                      <circle cx="100" cy="70" r="46" fill="rgba(99,102,241,0.2)" stroke="rgba(99,102,241,0.4)" strokeWidth="1.5" />
-                      <path d="M20 220 C20 170 50 145 100 145 C150 145 180 170 180 220" fill="rgba(99,102,241,0.15)" stroke="rgba(99,102,241,0.3)" strokeWidth="1.5" />
-                      <circle cx="100" cy="68" r="28" fill="rgba(99,102,241,0.3)" />
-                    </svg>
-                  </div>
+                  <img src={photoSrc} alt="Muhammad Ali Hassan" className="hero-avatar-img" />
                 </div>
               </div>
             </div>
