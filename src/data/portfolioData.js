@@ -1,5 +1,7 @@
 export const NAV_LINKS = ["about", "skills", "projects", "experience", "contact"];
 
+export const PROFILE_PHOTO = "/profile-photo.png";
+
 export const HERO = {
   badge: "Computer Scientist · Islamabad, Pakistan",
   firstName: "Muhammad",
