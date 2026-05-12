@@ -36,7 +36,7 @@ ATM Management System | Assembly Language
 Developed a low-level ATM simulation system using Assembly Language, implementing core banking functionalities such as balance inquiry, cash withdrawal, and deposit operations. Focused on efficient memory usage and precise control flow to ensure reliable execution.
 
 RikshawGO | Kotlin
-
+B
 Developed a mobile application for booking rickshaws, enabling users to request rides and manage bookings efficiently. Designed an intuitive user interface and implemented core features such as ride requests, fare estimation, and booking management.
 
 EDUCATION
