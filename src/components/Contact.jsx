@@ -55,7 +55,6 @@ export default function Contact({ contact, showToast }) {
                   target={item.href.startsWith("http") ? "_blank" : undefined}
                   rel={item.href.startsWith("http") ? "noreferrer" : undefined}
                 >
-                  <div className="contact-link-icon">{item.icon}</div>
                   <div className="contact-link-text">
                     <div className="contact-link-label">{item.label}</div>
                     <div className="contact-link-value">{item.value}</div>
@@ -74,17 +73,17 @@ export default function Contact({ contact, showToast }) {
               <div className="form-row">
                 <div className="form-group">
                   <label>First Name</label>
-                  <input type="text" placeholder="Jane" value={form.firstName} onChange={setField("firstName")} />
+                  <input type="text" placeholder="your" value={form.firstName} onChange={setField("firstName")} />
                 </div>
                 <div className="form-group">
                   <label>Last Name</label>
-                  <input type="text" placeholder="Smith" value={form.lastName} onChange={setField("lastName")} />
+                  <input type="text" placeholder="name" value={form.lastName} onChange={setField("lastName")} />
                 </div>
               </div>
 
               <div className="form-group">
                 <label>Email Address</label>
-                <input type="email" placeholder="jane@company.com" value={form.email} onChange={setField("email")} />
+                <input type="email" placeholder="your email" value={form.email} onChange={setField("email")} />
               </div>
 
               <div className="form-group">

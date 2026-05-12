@@ -222,10 +222,9 @@ export const GLOBAL_CSS = `
   .stat-number span { color:var(--accent-light); }
   .stat-label { font-size:0.82rem; color:var(--text-muted); margin-top:4px; }
   .tech-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
-  .tech-item { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); padding:20px 16px; display:flex; flex-direction:column; align-items:center; gap:10px; transition:var(--transition); cursor:default; }
+  .tech-item { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); padding:14px 12px; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:52px; transition:var(--transition); cursor:default; }
   .tech-item:hover { border-color:var(--border-hover); background:var(--bg-card-hover); transform:translateY(-4px); box-shadow:var(--shadow-glow); }
-  .tech-icon { width:36px; height:36px; display:flex; align-items:center; justify-content:center; font-size:22px; }
-  .tech-name { font-size:11px; font-weight:500; color:var(--text-secondary); text-align:center; }
+  .tech-name { font-size:11px; font-weight:600; color:var(--text-secondary); text-align:center; line-height:1.35; }
 
   .skills-section { background:var(--bg-primary); }
   .skills-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; }
@@ -284,8 +283,7 @@ export const GLOBAL_CSS = `
   .contact-links { display:flex; flex-direction:column; gap:16px; }
   .contact-link { display:flex; align-items:center; gap:14px; padding:16px 20px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-md); transition:var(--transition); text-decoration:none; }
   .contact-link:hover { border-color:var(--border-hover); background:var(--bg-card-hover); transform:translateX(4px); }
-  .contact-link-icon { width:36px; height:36px; border-radius:8px; background:var(--accent-glow); border:1px solid var(--border-hover); display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0; }
-  .contact-link-text { flex:1; }
+  .contact-link-text { flex:1; min-width:0; }
   .contact-link-label { font-size:11px; color:var(--text-muted); margin-bottom:2px; }
   .contact-link-value { font-size:0.88rem; color:var(--text-primary); font-weight:500; }
   .contact-form { display:flex; flex-direction:column; gap:16px; }

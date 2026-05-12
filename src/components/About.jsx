@@ -34,10 +34,9 @@ export default function About({ about, techStack }) {
             </span>
 
             <div className="tech-grid">
-              {techStack.map(tech => (
-                <div className="tech-item" key={tech.name}>
-                  <div className="tech-icon">{tech.icon}</div>
-                  <div className="tech-name">{tech.name}</div>
+              {techStack.map(name => (
+                <div className="tech-item" key={name}>
+                  <div className="tech-name">{name}</div>
                 </div>
               ))}
             </div>

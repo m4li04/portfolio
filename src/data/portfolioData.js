@@ -26,17 +26,17 @@ export const ABOUT = {
 };
 
 export const TECH_STACK = [
-  { icon: "🐍", name: "Python" },
-  { icon: "☕", name: "Java" },
-  { icon: "💠", name: "C++" },
-  { icon: "🟨", name: "JavaScript" },
-  { icon: "🌐", name: "HTML" },
-  { icon: "🎨", name: "CSS" },
-  { icon: "📱", name: "Flutter" },
-  { icon: "🤖", name: "Kotlin" },
-  { icon: "🗄️", name: "SQL" },
-  { icon: "🕸️", name: "Graph DB" },
-  { icon: "⚛️", name: "React" },
+  "Python",
+  "Java",
+  "C++",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "Flutter",
+  "Kotlin",
+  "SQL",
+  "Graph DB",
+  "React",
 ];
 
 export const SKILL_GROUPS = [
@@ -161,19 +161,16 @@ export const CONTACT = {
     "I’m open to internship opportunities, freelance work, and interesting collaborations. Drop me a message and I’ll get back to you within 24 hours.",
   items: [
     {
-      icon: "✉️",
       label: "Email",
       value: "contact.mah2004@gmail.com",
       href: "mailto:contact.mah2004@gmail.com",
     },
     {
-      icon: "📞",
       label: "Phone",
       value: "0331-5133382",
       href: "tel:03315133382",
     },
     {
-      icon: "📍",
       label: "Location",
       value: "Islamabad, Pakistan",
       href: "https://www.google.com/maps/search/?api=1&query=Islamabad%2C%20Pakistan",
